@@ -1,0 +1,125 @@
+/* Edit from bootstrap.min.css file - Start */
+/* Change Colors In Table Numbers on Right Bottom */
+:root {
+    --bs-link-color: none;
+    --bs-primary: aquamarine;
+    --bs-link-hover-color: aqua;
+}
+.active > .page-link, .page-link.active {
+    background-color: #3b4046;
+    border-color: aqua;
+}
+/* Edit from bootstrap.min.css file - End */
+body {
+    background-color: aliceblue;
+}
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+h1 {
+    color: aquamarine;
+    font-size: 50px;
+    padding-bottom: 4%;
+    margin: 0;
+}
+h1.title-modal {
+    color: aquamarine;
+    font-size: 30px;
+    padding-bottom: 0%;
+}
+h1.singInText {
+    color: aquamarine;
+    font-size: 50px;
+    padding-bottom: 10%;
+    margin: 0px 25px 20px;
+}
+.singIn {
+    background-color: white;
+    padding: 65px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px #727265;
+}
+.form-control:focus {
+    border: 2px solid wheat;
+    border-radius: 10px;
+    box-shadow: none;
+}
+/* Start Buttons */
+.buttonSingIn, .buttonCreateUser, .buttonRequest, .saveNewUser {
+    padding: 10px 15px;
+    border: 10px;
+    border-radius: 5px;
+    background-color: aquamarine;
+    font-weight: bold;
+    cursor: pointer;
+}
+.buttonSingIn:hover, .buttonCreateUser:hover, .buttonRequest:hover, .saveNewUser:hover {
+    background-color: aqua;
+}
+.buttonCreateUser, .buttonRequest {
+    margin-bottom: 2%;
+}
+.modal-footer {
+    justify-content: center;
+}
+
+textarea {
+    resize: none;
+}
+.reason {
+    /* display: flex;
+    align-items: center;
+    justify-content: flex-start; */
+    margin-bottom: 0; /* Αφαιρεί την κάτω απόσταση */
+    width: 100px;
+}
+/* End Buttons */
+
+/***** VERY IMPORTANT - START *****/
+/* Check If The <th> Tag Is Empty */
+th .dt-column-title:empty + .dt-column-order {
+    margin-left: auto;
+}
+/***** VERY IMPORTANT - END *****/
+
+/* New User Form - Start */
+.modal-body .mb-3 {
+    display: flex;
+    align-items: flex-start;
+}
+.modal-body .form-label {
+    flex: 0 0 20%;
+    margin-bottom: 0;
+}
+.modal-body .form-control {
+    flex: 1;
+    margin-left: 10px;
+}
+/* New User Form - End */
+
+
+
+
+
+/* I Check Again - Start  */
+.formLabel {
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.formInput {
+    width: 100%;
+    font-size: 15px;
+    border: 2px solid wheat;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 5px 0px;
+}
+.formInput::placeholder {
+    position: absolute;
+    top: 6px;
+    left: 5px;
+}
+/* I Check Again - End  */
